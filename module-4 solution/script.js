@@ -25,22 +25,21 @@ The code does NOT currently work! It is YOUR job to make it work
 as described in the requirements and the steps in order to complete this
 assignment.
 WARNING!!! WARNING!!!
-*/
+// */
 
 
-(function () {
+// (function () {
 
-  var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+//   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+//   for (var x = 0; x < names.length; x++) {
+//            var firstLetter = names[x].charAt(0).toLowerCase();
+//                  if (firstLetter === 'j' || firstLetter === "J") {
+//       byeSpeaker.speak(names[x]);
+//     } 
+//     else {
+//          helloSpeaker.speak(names[x]);
+//     }
+//   }
   
-  for (var i = 0; i < names.length; i++) {
-  
-    var firstLetter = names[i].charAt(0).toLowerCase();
-    if (firstLetter === 'j') {
-      byeSpeaker.speak(names[i]);
-    } 
-    else {
-      helloSpeaker.speak(names[i]);
-    }
-  }
-  
-  })();
+//   })();
+// \BACKUP\music\Strings and Bling\10. Nasty C - SMA (feat. Rowlene).mp3
