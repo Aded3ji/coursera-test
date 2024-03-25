@@ -41,5 +41,20 @@ WARNING!!! WARNING!!!
 //     }
 //   }
   
+<<<<<<< HEAD
 //   })();
 // \BACKUP\music\Strings and Bling\10. Nasty C - SMA (feat. Rowlene).mp3
+=======
+  for (var i = 0; i < names.length; i++) {
+  
+    var firstLetter = names[i].charAt(0).toLowerCase();
+    if (firstLetter === 'j') {
+      byeSpeaker.speak(names[i]);
+    } 
+    else {
+      helloSpeaker.speak(names[i]);
+    }
+  }
+  
+  })();
+>>>>>>> 4de81b1b4baa45dfeb5c2e2d5c3da28205c8b7bb
